@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev-server": "node server.js",
+    "dev-server": "webpack --mode development --config webpack.config.js",
     "compile-national": "DEALER_FOLDER=sound-national sh build-dealer.sh",
     "compile": "sh build-dealer.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +12,20 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "babel-loader": "^8.0.6",
     "express": "^4.17.1",
-    "pug-cli": "^1.0.0-alpha6"
+    "imagemin": "^7.0.0",
+    "imagemin-gifsicle": "^6.0.1",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "jimp": "^0.8.0",
+    "lodash": "^4.17.15",
+    "mini-css-extract-plugin": "^0.8.0",
+    "optipng-bin": "^6.0.0",
+    "pug-cli": "^1.0.0-alpha6",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-merge": "^4.2.2"
   }
 }
