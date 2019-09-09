@@ -139,7 +139,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _geolocation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./geolocation */ \"./src/sound-national/src/js/geolocation.js\");\n/* harmony import */ var _test_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./test-component */ \"./src/sound-national/src/js/test-component.js\");\n\n\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  getGeoLocation: _geolocation__WEBPACK_IMPORTED_MODULE_1__[\"getGeoLocation\"],\n  component: _test_component__WEBPACK_IMPORTED_MODULE_2__[\"default\"]\n});\n\n\n//# sourceURL=webpack:///./src/sound-national/src/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _geolocation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./geolocation */ \"./src/sound-national/src/js/geolocation.js\");\n/* harmony import */ var _test_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./test-component */ \"./src/sound-national/src/js/test-component.js\");\n/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../scss/index.scss */ \"./src/sound-national/src/scss/index.scss\");\n/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_scss_index_scss__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  getGeoLocation: _geolocation__WEBPACK_IMPORTED_MODULE_1__[\"getGeoLocation\"],\n  component: _test_component__WEBPACK_IMPORTED_MODULE_2__[\"default\"]\n});\n\n\n//# sourceURL=webpack:///./src/sound-national/src/js/index.js?");
 
 /***/ }),
 
@@ -152,6 +152,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var loda
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Component; });\nfunction Component () {\n  const element = document.createElement('div');\n\n  // Lodash, currently included via a script, is required for this line to work\n  element.innerHTML = _.join(['Hello', 'webpack'], ' ');\n\n  return element;\n}\n\n//# sourceURL=webpack:///./src/sound-national/src/js/test-component.js?");
+
+/***/ }),
+
+/***/ "./src/sound-national/src/scss/index.scss":
+/*!************************************************!*\
+  !*** ./src/sound-national/src/scss/index.scss ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n    if(false) { var cssReload; }\n  \n\n//# sourceURL=webpack:///./src/sound-national/src/scss/index.scss?");
 
 /***/ })
 
