@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev-server": "webpack --config webpack.config.js",
-    "compile-national": "DEALER_FOLDER=sound-national sh build-dealer.sh",
-    "compile": "sh build-dealer.sh",
+    "compile-national": "sh build-dealer.sh sound-national && DEALER_FOLDER=sound-national npm run compile-bundle-files",
+    "compile-bundle-files": "webpack --config webpack.config.js",
+    "compile": "sh build-dealer.sh sound-national",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
