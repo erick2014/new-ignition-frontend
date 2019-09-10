@@ -1,0 +1,43 @@
+doctype html
+html
+    head
+      title hello world
+      link(rel="stylesheet", href="/bundle.css")
+    body
+      p.
+        Hello World!
+        I am Pug, your buddy to write simple HTML templates.
+        <em>Let's explore the world, shall we?</em>
+        Very nice to meet you :)
+
+      - var size = "medium"
+      img(src=`https://design.google.com/logo-${size}.png` alt="google logo")
+     
+      //- Unbuffered JavaScript code does not output any results.
+      //- Unbuffered code must start with `-` hyphen.
+      - var fieldName = "username"
+      - var required = false
+      input(type="text", name=fieldName, required=required)
+
+      -
+        // JavaScript comment inside the block
+        var classes = [
+          "general",
+          "link",
+          "active"
+        ];
+
+      a(href="some-link", class=classes[0])
+
+      include ../partials/assets.pug
+
+      include ../partials/data.pug
+      mixin user(data)
+        li
+          p.name= data.name
+          p.city= data.city
+
+      ul.user-list
+        for data in users
+          +user(data)
+          
